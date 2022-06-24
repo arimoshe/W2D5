@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    padding:10px
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.ingredients-list {
+list-style: square inside;
+}
+
+ol {
+    list-style: disc inside;
+}
+
+header > img {
+    width: 100px;
+
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
+} 
+
+.user_review {
+    background-color: aquamarine;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input {
+    outline: none;
+    cursor: pointer;
+}
+
+input:last-child {
+background-color: gold;
+}
+
+li {
+    color:rgb(58, 0, 29)
+}
+
+h2 + .user_review {
+    background-color: greenyellow
+}
+
+[type="radio"] {
+    appearance: none;
+    background-image: url("stars.png");
+    width:30px;
+    height: 30px;
+}
+[type="radio"]:hover {
+    background-position: 0px 30px;
+}
+[type="radio"]:checked {
+    background-position: 0px 60px;
+}
