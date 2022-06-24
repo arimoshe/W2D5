@@ -35,13 +35,13 @@ li a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-input {
+input[type="radio"], #expertise, input[type="submit"] {
     outline: none;
     cursor: pointer;
 }
 
 input:last-child {
-background-color: gold;
+    background-color: gold;
 }
 
 li {
